@@ -36,7 +36,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
         
-        
+        DispatchQueue.main.async {
+            self.present(VoiceRecordingController(), animated: true)
+        }
         
         return node
     }

@@ -15,6 +15,7 @@
 		F30A783824EF561E00F27A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30A783624EF561E00F27A24 /* LaunchScreen.storyboard */; };
 		F30A784124EF634E00F27A24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A783F24EF634E00F27A24 /* Extensions.swift */; };
 		F30A784224EF634E00F27A24 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A784024EF634E00F27A24 /* UIView+Layout.swift */; };
+		F3C8C0D224F6D8A6008B7040 /* VoiceRecordingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8C0D124F6D8A6008B7040 /* VoiceRecordingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F30A783924EF561E00F27A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30A783F24EF634E00F27A24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F30A784024EF634E00F27A24 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		F3C8C0D124F6D8A6008B7040 /* VoiceRecordingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				F30A783F24EF634E00F27A24 /* Extensions.swift */,
 				F30A784024EF634E00F27A24 /* UIView+Layout.swift */,
 				F30A782F24EF561A00F27A24 /* ViewController.swift */,
+				F3C8C0D124F6D8A6008B7040 /* VoiceRecordingController.swift */,
 				F30A783124EF561A00F27A24 /* Main.storyboard */,
 				F30A783424EF561E00F27A24 /* Assets.xcassets */,
 				F30A783624EF561E00F27A24 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				F30A783024EF561A00F27A24 /* ViewController.swift in Sources */,
 				F30A784124EF634E00F27A24 /* Extensions.swift in Sources */,
 				F30A782C24EF561A00F27A24 /* AppDelegate.swift in Sources */,
+				F3C8C0D224F6D8A6008B7040 /* VoiceRecordingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
