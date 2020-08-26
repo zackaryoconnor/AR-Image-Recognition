@@ -15,6 +15,7 @@
 		F30A783824EF561E00F27A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30A783624EF561E00F27A24 /* LaunchScreen.storyboard */; };
 		F30A784124EF634E00F27A24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A783F24EF634E00F27A24 /* Extensions.swift */; };
 		F30A784224EF634E00F27A24 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A784024EF634E00F27A24 /* UIView+Layout.swift */; };
+		F3BFC28A24F6DDD500C77271 /* seagulls.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3BFC28924F6DDD500C77271 /* seagulls.wav */; };
 		F3C8C0D224F6D8A6008B7040 /* VoiceRecordingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8C0D124F6D8A6008B7040 /* VoiceRecordingController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		F30A783924EF561E00F27A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30A783F24EF634E00F27A24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F30A784024EF634E00F27A24 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		F3BFC28924F6DDD500C77271 /* seagulls.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = seagulls.wav; path = Assets/Audio/seagulls.wav; sourceTree = SOURCE_ROOT; };
 		F3C8C0D124F6D8A6008B7040 /* VoiceRecordingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 		F30A782A24EF561A00F27A24 /* AR Image Recognition */ = {
 			isa = PBXGroup;
 			children = (
+				F3BFC28924F6DDD500C77271 /* seagulls.wav */,
 				F30A782D24EF561A00F27A24 /* art.scnassets */,
 				F30A782B24EF561A00F27A24 /* AppDelegate.swift */,
 				F30A783F24EF634E00F27A24 /* Extensions.swift */,
@@ -136,6 +139,7 @@
 			files = (
 				F30A782E24EF561A00F27A24 /* art.scnassets in Resources */,
 				F30A783824EF561E00F27A24 /* LaunchScreen.storyboard in Resources */,
+				F3BFC28A24F6DDD500C77271 /* seagulls.wav in Resources */,
 				F30A783524EF561E00F27A24 /* Assets.xcassets in Resources */,
 				F30A783324EF561A00F27A24 /* Main.storyboard in Resources */,
 			);

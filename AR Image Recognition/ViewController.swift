@@ -14,6 +14,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
+    let configuration = ARImageTrackingConfiguration()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,16 +24,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        let configuration = ARImageTrackingConfiguration()
 
-        guard let  trackingImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {
+        guard let trackingImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {
             fatalError("Couldn't load tracking images.")
         }
         
         configuration.trackingImages = trackingImages
         sceneView.session.run(configuration)
     }
+    
     
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
@@ -42,5 +43,4 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         return node
     }
-    
 }
